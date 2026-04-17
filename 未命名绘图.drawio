@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Yal5wKoUD2fEpytjOVfS">
-    <mxGraphModel dx="2568" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3423" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,56 +55,101 @@
         <mxCell id="BNps84k_QLIr1HmWb3Rk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="知识库检索&lt;div&gt;（精准召回）&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="1160" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-29" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-12">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-19" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Prompt模版&lt;div&gt;（背景 + 约束 + 原则 + 示例）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="220" x="1460" y="300" as="geometry" />
+          <mxGeometry height="40" width="220" x="1500" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-30" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-13">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-20" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM调用&lt;div&gt;（结合PRD + 召回知识库）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="220" x="1780" y="300" as="geometry" />
+          <mxGeometry height="40" width="220" x="1500" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-32" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-14">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-21" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IdtCI4jQL5Nh76srbSd6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成初版用例&lt;div&gt;（功能 / 非功能）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="220" x="2100" y="300" as="geometry" />
+        <mxCell id="BNps84k_QLIr1HmWb3Rk-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成初版策略&lt;div&gt;（功能 / 非功能）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="1500" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-33" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="BNps84k_QLIr1HmWb3Rk-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="多轮对话调整" vertex="1">
-          <mxGeometry height="40" width="220" x="2481" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-38" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="BNps84k_QLIr1HmWb3Rk-16">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-34" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="BNps84k_QLIr1HmWb3Rk-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人工修改 / 补充用例" vertex="1">
-          <mxGeometry height="40" width="220" x="2690" y="500" as="geometry" />
+          <mxGeometry height="40" width="220" x="2000" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-35" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-17">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-29" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用例存档&lt;div&gt;（结构化存储）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="105" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="580" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-36" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-18">
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-32" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;" target="BNps84k_QLIr1HmWb3Rk-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="910" />
+              <mxPoint x="60" y="480" />
+              <mxPoint x="700" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNps84k_QLIr1HmWb3Rk-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对接自动化执行&lt;div&gt;（接口 / UI）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="BNps84k_QLIr1HmWb3Rk-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="回写知识库" vertex="1">
+          <mxGeometry height="30" width="150" x="1140" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-25" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成初版用例&lt;div&gt;（功能 / 非功能）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="2000" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-23" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IdtCI4jQL5Nh76srbSd6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Prompt模版&lt;div&gt;（背景 + 约束 + 原则 + 示例）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="2000" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-24" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IdtCI4jQL5Nh76srbSd6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM调用&lt;div&gt;（结合PRD + 召回知识库）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="2000" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-7" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IdtCI4jQL5Nh76srbSd6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="平台化承接&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（阿拉丁）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="策略存档&lt;div&gt;（结构化存储）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-22" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IdtCI4jQL5Nh76srbSd6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="多轮对话调整" vertex="1">
+          <mxGeometry height="40" width="220" x="1500" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-33" edge="1" parent="1" source="IdtCI4jQL5Nh76srbSd6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="IdtCI4jQL5Nh76srbSd6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人工修改 / 补充策略" vertex="1">
+          <mxGeometry height="40" width="220" x="1500" y="564.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-26" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BNps84k_QLIr1HmWb3Rk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="多轮对话调整" vertex="1">
+          <mxGeometry height="40" width="220" x="2000" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IdtCI4jQL5Nh76srbSd6-30" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BNps84k_QLIr1HmWb3Rk-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="平台化承接&lt;div&gt;（阿拉丁）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="525" as="geometry" />
-        </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-37" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="BNps84k_QLIr1HmWb3Rk-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="对接自动化执行&lt;div&gt;（接口 / UI）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="707" y="525" as="geometry" />
-        </mxCell>
-        <mxCell id="BNps84k_QLIr1HmWb3Rk-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="回写知识库" vertex="1">
-          <mxGeometry height="30" width="150" x="520" y="600" as="geometry" />
+          <mxGeometry height="60" width="120" x="330" y="880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

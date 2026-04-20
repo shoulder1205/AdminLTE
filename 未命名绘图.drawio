@@ -75,6 +75,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="e09T0xRFO6L69uWyJnnS-2" edge="1" parent="1" source="BNps84k_QLIr1HmWb3Rk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="IdtCI4jQL5Nh76srbSd6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="150" />
+              <mxPoint x="1690" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BNps84k_QLIr1HmWb3Rk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="知识库检索&lt;div&gt;（精准召回）&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="1160" y="340" as="geometry" />
         </mxCell>
